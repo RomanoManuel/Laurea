@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111111" />
+    <meta name="description" content="Un piccolo ringraziamento per aver condiviso questo traguardo." />
+    <title>Laurea.exe — Grazie</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="terminal-card" aria-labelledby="page-title">
+        <div class="terminal-topbar">
+          <span class="traffic-lights" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="terminal-label">laurea.exe</span>
+          <span class="status-dot" title="Sistema operativo"></span>
+        </div>
+
+        <div class="terminal-body">
+          <p class="prompt">&gt; avvio_ringraziamenti<span class="cursor">_</span></p>
+          <p class="system-line">processo completato con successo <span class="check">✓</span></p>
+
+          <div class="hero-copy">
+            <p class="eyebrow">MISSIONE COMPLETATA</p>
+            <h1 id="page-title">Grazie di cuore.</h1>
+            <p class="intro">
+              La mia laurea è stata un traguardo importante, ma averlo condiviso
+              con te l’ha resa ancora più speciale.
+            </p>
+          </div>
+
+          <div class="code-window" aria-label="Messaggio di ringraziamento">
+            <div class="code-window-title"><span>&gt; messaggio.txt</span><span>READ ONLY</span></div>
+            <p><span class="code-muted">01</span> Grazie per esserci stato/a,</p>
+            <p><span class="code-muted">02</span> per l’affetto e per aver condiviso</p>
+            <p><span class="code-muted">03</span> con me questo giorno speciale.</p>
+            <p class="code-accent"><span class="code-muted">04</span> — con gratitudine, <span id="graduate-name">Manuel</span></p>
+          </div>
+
+          <div class="event-status">
+            <div><span class="status-key">EVENT</span><span>Laurea</span></div>
+            <div><span class="status-key">STATUS</span><span class="pill">COMPLETED ✓</span></div>
+            <div><span class="status-key">ACCESS</span><span>via NFC</span></div>
+          </div>
+
+          <button class="surprise-button" type="button" id="surprise-button">&gt; esegui sorpresa</button>
+          <p class="surprise" id="surprise" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <p class="footer-note">un ricordo digitale, conservato con affetto</p>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
